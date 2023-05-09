@@ -23,7 +23,7 @@ export function PageData({ data }: { data: any }) {
           <div className="info">
             <span>Your Location</span>
             <span className="region">
-              <strong>{data.location.name}</strong>
+              <strong>{data}name</strong>
             </span>
           </div>
           <div className="info">
